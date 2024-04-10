@@ -48,27 +48,27 @@ END PROGRAM helloworld
 
 Que é um codigo simples que imprime "Hello World" na tela.
 
-Na primeira linha:
+> 1º Na primeira linha:
 
 <b>"PROGRAM helloworld"</b>, criamos o programa e atribuimos o nome de "helloworld" a ele. TODO programa em fortran necessita de um programa principal, e ele é definido por "PROGRAM nome_do_programa".
 
-Na segunda linha:
+> 2º Na segunda linha:
 
 <b>"IMPLICIT NONE"</b>, desabilitamos a declaração implicita de variaveis. Isso significa que todas as variaveis que forem utilizadas no programa precisam ser declaradas explicitamente.
 
-Na terceira linha:
+> 3º Na terceira linha:
 
 <b>"CHARACTER(LEN=11) :: mensagem"</b>, declaramos uma variavel do tipo caracter chamada "mensagem" com tamanho 11, não se preocupe com o tipo da variavel, mais tarde entenderemos os tipos de variaveis e como são declaradas.
 
-Na quarta linha:
+> 4º Na quarta linha:
 
 <b>"mensagem = 'Hello World'"</b>, atribuimos a variavel "mensagem" o valor "Hello World".
 
-Na quinta linha:
+> 5º Na quinta linha:
 
-<b>"WRITE(*,*) mensagem"</b>, escrevemos na tela o valor da variavel "mensagem".
+<b>"WRITE(*, *) mensagem"</b>, escrevemos na tela o valor da variavel "mensagem".
 
-Na sexta linha:
+> 6º Na sexta linha:
 
 <b>"END PROGRAM helloworld"</b>, finalizamos o programa, assim como iniciamos todo programa, temos que finalizalo, entao "PROGRAM name" e "END PROGRAM name" é algo necessário em todo programa Fortran.
 
